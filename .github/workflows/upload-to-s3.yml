@@ -6,7 +6,7 @@ on:
     branches: [ main ]
     # Only run when the file changes (optional)
     paths:
-      - schedule.txt
+      - config.json
 
 jobs:
   upload:

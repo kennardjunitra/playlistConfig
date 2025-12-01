@@ -66,7 +66,7 @@
       "Barcelona",
       "Madrid"
     ],
-    "min_duration_minutes": 4,
+    "min_duration_minutes": 3,
     "default_video": "Gb1iGDchKYs",
     "sns_topic_name": "arn:aws:sns:ap-southeast-1:117433956934:custom_playlist_subscription"
   },
