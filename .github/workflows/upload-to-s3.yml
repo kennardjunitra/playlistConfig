@@ -27,7 +27,7 @@ jobs:
 
       - name: Upload object to S3 (overwrite/replace)
         run: |
-          aws s3 cp schedule.txt s3://ypc-batch-file/channels.json \
+          aws s3 cp channels.json s3://ypc-batch-file/channels.json \
             --acl private \
             --content-type "text/plain" \
             --cache-control "no-cache" \
