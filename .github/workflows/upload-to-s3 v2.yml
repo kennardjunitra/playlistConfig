@@ -3,8 +3,9 @@ name: Upload file to S3
 
 on:
   push:
-    branches: [ main ]
-    # Only run when the file changes (optional)
+    branches:
+      - main
+  workflow_dispatch:
     paths:
       - config.json
 
